@@ -3,7 +3,7 @@ torch>=2.0.0
 torchvision>=0.15.0
 torchaudio>=2.0.0
 
-# YOLO (You can use YOLOv8/v9 - Ultralytics provides both)
+# YOLO (Ultralytics provides best SOTA Yolo modelsa for Edge & Cloud deployment)
 ultralytics>=8.0.0
 
 # Computer Vision
