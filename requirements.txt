@@ -1,0 +1,34 @@
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# YOLO (You can use YOLOv8/v9 - Ultralytics provides both)
+ultralytics>=8.0.0
+
+# Computer Vision
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+Pillow>=10.0.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Azure SDK (for downloading from blob storage)
+azure-storage-blob>=12.19.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+albumentations>=1.3.0  # Advanced image augmentation
+pycocotools>=2.0.6  # For COCO format handling
+
+# Jupyter (optional, for notebooks)
+jupyter>=1.0.0
+ipywidgets>=8.0.0
