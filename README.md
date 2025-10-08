@@ -141,12 +141,12 @@ python -m torch.distributed.run --nproc_per_node=4 train_yolo_ddp.py
 
 **Performance Comparison (YOLOv8m-seg, NVIDIA A100):**
 
-| GPUs | Standard Training | DDP Training | Speedup |
-|------|------------------|--------------|---------|
-| 1    | 45 min/epoch     | 45 min/epoch | 1.0x    |
-| 2    | 30 min/epoch     | 24 min/epoch | 1.9x    |
-| 4    | 18 min/epoch     | 13 min/epoch | 3.6x    |
-| 8    | 12 min/epoch     | 7 min/epoch  | 6.4x    |
+| GPUs | DDP Training | Speedup |
+|------|--------------|---------|
+| 1    | 45 min/epoch | 1.0x    |
+| 2    | 24 min/epoch | 1.9x    |
+| 4    | 13 min/epoch | 3.6x    |
+| 8    | 7 min/epoch  | 6.4x    |
 
 📖 **[See full DDP documentation →](QUICKSTART_DDP.md)**
 
