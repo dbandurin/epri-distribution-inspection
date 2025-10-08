@@ -148,7 +148,7 @@ python -m torch.distributed.run --nproc_per_node=4 train_yolo_ddp.py
 | 4    | 13 min/epoch | 3.6x    |
 | 8    | 7 min/epoch  | 6.4x    |
 
-📖 **[See full DDP documentation →](QUICKSTART_DDP.md)**
+📖 **[See full DDP documentation →](Quickstart_ddp.md)**
 
 ## Quick Start
 
