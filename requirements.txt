@@ -1,34 +1,36 @@
-# Core Deep Learning
+# Core ML/DL Frameworks
 torch>=2.0.0
 torchvision>=0.15.0
-torchaudio>=2.0.0
-
-# YOLO (Ultralytics provides best SOTA Yolo modelsa for Edge & Cloud deployment)
 ultralytics>=8.0.0
 
 # Computer Vision
 opencv-python>=4.8.0
-opencv-contrib-python>=4.8.0
 Pillow>=10.0.0
 
 # Data Processing
 numpy>=1.24.0
 pandas>=2.0.0
-scikit-learn>=1.3.0
+scipy>=1.10.0
 
 # Visualization
 matplotlib>=3.7.0
 seaborn>=0.12.0
+plotly>=5.14.0
 
-# Azure SDK (for downloading from blob storage)
-azure-storage-blob>=12.19.0
-
-# Utilities
+# Data Loading & Processing
+PyYAML>=6.0
 tqdm>=4.65.0
-pyyaml>=6.0
-albumentations>=1.3.0  # Advanced image augmentation
-pycocotools>=2.0.6  # For COCO format handling
 
-# Jupyter (optional, for notebooks)
+# Azure Integration (for data download)
+azure-storage-blob>=12.17.0
+
+# Distributed Training
+# torch.distributed is included in torch
+# NCCL backend is included in CUDA-enabled PyTorch builds
+
+# Optional: Development Tools
 jupyter>=1.0.0
-ipywidgets>=8.0.0
+ipykernel>=6.23.0
+
+# Optional: Performance Profiling
+tensorboard>=2.13.0
